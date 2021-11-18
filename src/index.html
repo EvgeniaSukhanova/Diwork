@@ -1,7 +1,253 @@
-@@include('parts/head.html')
-    <h1>Example</h1>
-    <ul>
-        <li>item1</li>
-        <li>item2</li>
-    </ul>
-@@include('parts/footer.html')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>My Diwork</title>
+</head>
+<body>
+    <header class="main-header">
+       <div class="header-nav">
+           <a class="header__logo" href="#"><img  src="./img/main logo.png" alt="логотип Фигма" width="186"></a>
+           <a class="header__burger-button" href="#"><img src="./img/burger button.png" alt="кнопка меню" width="26,67"></a>
+           <ul class="header-nav__nav">
+               <li class="header-nav__link">
+                   <a class="header-nav__ref" href="#">Home</a>
+               </li> 
+               <li class="header-nav__link">
+                <a class="header-nav__ref" href="#">Product</a>
+               </li>
+               <li class="header-nav__link">
+                    <a class="header-nav__ref" href="#">Pricing</a>
+               </li>
+               <li class="header-nav__link">
+                    <a class="header-nav__ref" href="#">About</a>
+               </li>
+               <li class="header-nav__link">
+                    <a class="header-nav__ref" href="#">Contact</a>
+               </li>
+               <li class="header-nav__link">
+                   <form class="header__form" action="" method="">
+                    <label class="visually-hidden" for="mail">Your email</label>
+                    <input class="header__input-mail" type="email" name="mail" placeholder="Your Email" id="mail">
+                    <button class="button header__sbm-btn" type="submit">Subscribe</button>
+                   </form>
+               </li>
+            </ul>
+        </div>
+        <div class="header__info">
+            <img class="header__img-two" src="./img/part screen.png" alt="скриншот экрана">
+            <h1 class="section__title header__title">Lightning fast prototyping</h1>
+            <div class="header__content">
+                <h1 class="header__title-two">We focus on ergonomics </h1>
+                <p class="main-paragraph__text header__text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+                <img class="header__img" src="./img/full screen.png" alt="скриншот экрана">
+                <a class="button header__btn" href="#">Try for free</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="features">
+            <p class="features__header">At your fingertips</p>
+            <h2 class="section__title features__title">Features</h2>
+            <p class="main-paragraph__text features__text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+            <ul class="features__list">
+                <li class="features__link">
+                    <img class="features__img" src="./img/Vector.png" alt="иконка круг и квадрат">
+                    <h3 class="features__h3-title">The best products start with Sketch</h3>
+                    <p class="features__p">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </li>
+                <li class="features__link">
+                    <img class="features__img" src="./img/Vector (1).png" alt="иконка карандаш">
+                    <h3 class="features__h3-title">Fastest way to organize</h3>
+                    <p class="features__p">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </li>
+                <li class="features__link">
+                    <img class="features__img" src="./img/Vector (2).png" alt="иконка вилка и ложка">
+                    <h3 class="features__h3-title">Work better together</h3>
+                    <p class="features__p">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </li>
+            </ul>   
+        </section>
+        <section class="prototyping">
+            <h2 class="section__title prototyping__title">Lightning fast prototyping</h2>
+            <p class="main-paragraph__text prototyping__text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+            <a class="button prototyping__btn" href="#">Try for free</a>
+            <img class="prototyping__img" src="./img/notebook.png" alt="иконка ноутбук">
+        </section> 
+        <section class="newsletter">
+            <p class="newsletter__header">At your fingertips</p>
+            <h2 class="section__title newsletter__title">Newsletter</h2>
+            <h2 class="section__title newsletter__title-two">Lightning fast prototyping</h2>
+            <h3 class="newsletter__h3-title">Subscribe to our Newsletter</h3>
+            <p class="newsletter__p">Available exclusivery on Figmaland</p>
+            <form class="newsletter__form" action="" method="">
+                <label class="visually-hidden" for="mail">Your email</label>
+                <input class="newsletter__input-mail" type="email" name="mail" placeholder="Your Email" id="mail">
+                <button class="button newsletter__sbm-btn" type="submit">Subscribe</button>
+            </form>
+        </section>
+        <section class="partners">
+            <h2 class="section__title partners__title">Partners</h2>
+            <p class="main-paragraph__text partners__text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+            <ul class="partners__list">
+                <li class="partners__link">
+                    <h3 class="partners__h3-title">Client Name</h3>
+                    <img class="partners__img" src="./img/logos_apiary.png" alt="иконка геометрия кубики">
+                    <p class="partners__p">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </li>
+                <li class="partners__link">
+                    <h3 class="partners__h3-title">Client Name</h3>
+                    <img class="partners__img" src="./img/logos_android-icon.png" alt="иконка андроид">
+                    <p class="partners__p">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </li>
+                <li class="partners__link">
+                    <h3 class="partners__h3-title">Client Name</h3>
+                    <img class="partners__img" src="./img/logos_basecamp.png" alt="иконка гора">
+                    <p class="partners__p">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </li>
+                <li class="partners__link-two">
+                    <h3 class="partners__h3-title">Client Name</h3>
+                    <img class="partners__img" src="./img/logos_basecamp.png" alt="иконка гора">
+                    <p class="partners__p">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </li>
+                <li class="partners__link-two">
+                    <h3 class="partners__h3-title">Client Name</h3>
+                    <img class="partners__img" src="./img/logos_airbnb.png" alt="иконка airbnb">
+                    <p class="partners__p">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </li>
+                <li class="partners__link-two">
+                    <h3 class="partners__h3-title">Client Name</h3>
+                    <img class="partners__img" src="./img/logos_apple-app-store.png" alt="иконка apple-store">
+                    <p class="partners__p">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </li>
+            </ul>   
+            <a class="button partners__btn" href="#">Try for free</a>
+        </section>
+        <section class="testimonials">
+                </li>
+            <h2 class="section__title testimonials__title">Testimonials</h2>
+            <img class="testimonials__img" src="./img/Rectangle.png" alt="иконка Dropbox">
+            <p class="testimonials__p">Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
+            <div class="testimonials__grid">
+                <img class="testimonials__img-two" src="./img/Ellipse 2.png" alt="фото девушки">
+                <p class="testimonials__p-grid-one">Organize across</p>
+                <p class="testimonials__p-grid-two">Ui designer</p>
+            </div>
+            <a class="button testimonials__btn" href="#">More Testimonials</a>
+        </section>
+        <section class="pricing">
+            <h2 class="section__title pricing__title">Pricing</h2>
+            <p class="main-paragraph__text pricing__text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+            <ul class="pricing__content">
+                <li class="pricing__link">
+                    <h3 class="pricing__h3">Free</h3>
+                    <p class="pricing__p">Organize across all apps by hand</p>
+                    <div class="pricing__grid">
+                        <span class="pricing__number">0</span>
+                        <span class="pricing__currency">$</span>
+                        <span class="pricing__term">Per Month</span>
+                    </div>
+                    <a class="button pricing__btn" href="#">Order now</a>
+                </li>
+                <li class="pricing__link pricing__hover">
+                    <h3 class="pricing__h3">STANDART</h3>
+                    <p class="pricing__p">Organize across all apps by hand</p>
+                    <div class="pricing__grid">
+                        <span class="pricing__number">10</span>
+                        <span class="pricing__currency">$</span>
+                        <span class="pricing__term">Per Month</span>
+                    </div>
+                    <a class="button pricing__btn pricing__hover" href="#">Order now</a>
+                </li>
+                <li class="pricing__link">
+                    <h3 class="pricing__h3">BUSINESS</h3>
+                    <p class="pricing__p">Organize across all apps by hand</p>
+                    <div class="pricing__grid">
+                        <span class="pricing__number">99</span>
+                        <span class="pricing__currency">$</span>
+                        <span class="pricing__term">Per Month</span>
+                    </div>
+                    <a class="button pricing__btn" href="#">Order now</a>
+                </li>
+            </ul>
+        </section>
+        <section class="contact">
+            <h2 class="section__title contact__title">Contact Us</h2>
+            <p class="main-paragraph__text contact__text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+            <div class="contact__content">   
+                <div class="contact__flex">
+                    <div class="contact__icons">
+                        <a class="contacts_ref" href="#"><img class="contact__icon" src="./img/Vector (4).png" alt="иконка Твиттера"></a>
+                        <a class="contacts_ref" href="#"><img class="contact__icon" src="./img/Vector (5).png" alt="иконка Фейсбук"></a>
+                        <a class="contacts_ref" href="#"><img class="contact__icon" src="./img/Vector (6).png" alt="иконка Линкед ин"></a>
+                    </div>
+                    <div class="contact__grid">
+                        <img class="contact__img" src="./img/bx_bx-map.png" alt="иконка геолокация">
+                        <p class="contact__gridtext">6386 Spring St undefined Anchorage, Georgia 12473 United States</p>
+                        <img class="contact__img" src="./img/ic_baseline-phone-android.png" alt="иконка телефон">
+                        <p class="contact__gridtext">(843) 555-0130</p>
+                        <img class="contact__img" src="./img/Vector (3).png" alt="иконка конверт">
+                        <p class="contact__gridtext">willie.jennings@example.com</p>
+                    </div>
+                </div>
+                <form class="contact__form" action="" method="">
+                    <label class="visually-hidden" for="name">Your name</label>
+                    <input class="contact__form-name" type="text" name="name" placeholder="Your name" id="name">
+                    <label class="visually-hidden" for="mail">Your Email</label>
+                    <input class="contact__form-mail" type="email" name="mail" placeholder="Your Email" id="mail">
+                    <label class="visually-hidden" for="message">Ваше сообщение</label>
+                    <textarea class="contact__form-message" name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <button class="button contact__sbm-btn" type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+        <section class="pages">
+            <div class="pages__column">
+                <h3 class="pages__title">Pages</h3>
+                <ul class="pages__list">
+                    <li class="pages__li">
+                        <a class="pages_ref" href="#">Eleanor Edwards</a>
+                    </li>
+                    <li class="pages__li">
+                        <a class="pages_ref" href="#">Ted Robertson</a>
+                    </li>
+                    <li class="pages__li">
+                        <a class="pages_ref" href="#">Annette Russell</a>
+                    </li>
+                    <li class="pages__li">
+                        <a class="pages_ref" href="#">Jennie Mckinney</a>
+                    </li>
+                    <li class="pages__li">
+                        <a class="pages_ref" href="#">Gloria Richards</a>
+                    </li>
+                </ul>
+            </div>    
+            <a class="pages__map" href="#"><img src="./img/screen.png" alt="фрагмент карты"></a>
+            <div class="pages__content">
+                    <div class="contact__grid pages__grid">
+                    <img class="contact__img" src="./img/bx_bx-map.png" alt="иконка геолокация">
+                    <p class="contact__gridtext pages__gridtext">6386 Spring St undefined Anchorage, Georgia 12473 United States</p>
+                    <img class="contact__img" src="./img/ic_baseline-phone-android.png" alt="иконка телефон">
+                    <p class="contact__gridtext pages__gridtext">(843) 555-0130</p>
+                    <img class="contact__img" src="./img/Vector (3).png" alt="иконка конверт">
+                    <p class="contact__gridtext pages__gridtext">willie.jennings@example.com</p>
+                </div>
+                <div class="contact__icons pages__icons">
+                    <a class="contacts_ref" href="#"><img class="contact__icon" src="./img/Vector (4).png" alt="иконка Твиттера"></a>
+                    <a class="contacts_ref" href="#"><img class="contact__icon" src="./img/Vector (5).png" alt="иконка Фейсбук"></a>
+                    <a class="contacts_ref" href="#"><img class="contact__icon" src="./img/Vector (6).png" alt="иконка Линкед ин"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+      
+    </footer>
+</body>
+</html>
